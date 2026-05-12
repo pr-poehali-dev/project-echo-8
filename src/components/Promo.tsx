@@ -19,19 +19,24 @@ export default function Promo() {
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
             src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            alt="Abstract visual"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/50" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <p className="absolute top-10 left-6 text-white/60 uppercase z-10 text-xs tracking-[0.3em]">
+        Наш манифест
+      </p>
+
+      <h3 className="absolute top-10 right-6 text-white/60 uppercase z-10 text-xs tracking-[0.3em]">
+        2026
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <p className="absolute bottom-12 left-6 right-6 text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-w-4xl z-10 font-light leading-tight">
+        Мы верим: каждая большая идея заслуживает воплощения.{" "}
+        <span className="font-bold">Сделай первый шаг — остальное сделаем вместе.</span>
       </p>
     </div>
   );
